@@ -7,7 +7,7 @@ Internally we run bare-metal, but for some people docker is just easier to manag
 ## This will expose many ports, you have been warned
 Docker setup (recommended to all):
 1. Install docker, docker compose etc
-2. Run `docker compose up --build`
+2. Run `docker compose up --build -d`
 
 
 Manual setup (recommended for performance critical applications, only a few ms but scales):
