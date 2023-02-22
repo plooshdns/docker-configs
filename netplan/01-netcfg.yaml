@@ -1,0 +1,20 @@
+# This file describes the network interfaces available on your system
+# For more information, see netplan(5).
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    eth0:
+      dhcp4: yes
+    adguardint1:
+      dhcp4: yes
+      match: {}
+      addresses: [192.168.0.232/32]
+      dhcp4-overrides:
+        send-hostname: true
+        hostname: "adguard.host"
+    adguardint2: {}
+  bridges:
+    b1:
+      interfaces: [adguardint1]
+      interfaces: [adguardint2]

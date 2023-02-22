@@ -1,0 +1,5 @@
+[NetDev]
+Name=adguardint1
+Kind=veth
+[Peer]
+Name=adguardint2
