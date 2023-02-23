@@ -23,3 +23,6 @@ b. **Edit the contents of the file at `/etc/netplan/01-netcfg.yml` to include th
 5. Copy the rest of the config files (since this was taylored for the docker container, you'll need to modify the config either before or after initial deployment)
 6. Restart neccesary services or reboot
 7. Log onto PiHole and AdGuard and fix any broken parts.
+
+
+# Support not yet provided and mostlikely wont be 
