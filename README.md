@@ -3,7 +3,7 @@ Some edge cases can fail
 
 # PlooshDNS configs
 
-Internally we run bare-metal, but for some people docker is just easier to manage. 
+docker allows us to deploy at lightning speeds
 ## This will expose many ports, you have been warned
 Docker setup (recommended to all):
 1. Install docker, docker compose etc
