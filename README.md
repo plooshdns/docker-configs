@@ -1,5 +1,4 @@
-# ⚠️⚠️ TESTING NOT COMPLETED ⚠️⚠️
-Some edge cases can fail
+# ⚠️⚠️ YOU WILL **NOT** RECIEVE ANY SUPPORT FROM USING THIS SOFTWARE ⚠️⚠️
 
 # PlooshDNS configs
 
